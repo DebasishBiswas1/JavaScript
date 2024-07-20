@@ -1,6 +1,7 @@
 // Immediately invoked function expression (IIFE)
 
 (function chai() {
+    // named IIFE
     console.log(`Hello chai lover`);
 })();
 
@@ -9,6 +10,7 @@
 // semocolon is given to tell the function where to end the function
 
 (()=>{
+    // Simple IIFE
     console.log(`Hello akdom chai lover`);
 })();
 // Arrow function also can be called at the same way
