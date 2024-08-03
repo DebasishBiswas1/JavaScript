@@ -36,7 +36,7 @@ To get started with the exercises and projects in this repository, follow these 
 
     Each exercise or project will have its own instructions for running and testing the code. Refer to the README file within each folder for specific details.
 
-## Folder Structure
+<!-- ## Folder Structure
 
 The repository is structured as follows:
 
@@ -55,7 +55,7 @@ js-practice-repo/
 └── README.md
 
 
-- **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts.
+- **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts. -->
 <!-- - **projects/**: This folder contains larger projects that integrate multiple concepts and techniques. -->
 
 ## Exercises
