@@ -51,11 +51,11 @@ js-practice-repo/
 │   ├── project1/
 │   ├── project2/
 │   └── ... -->
-│
+<!-- │
 └── README.md
 
 
-- **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts. -->
+- **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts. --> -->
 <!-- - **projects/**: This folder contains larger projects that integrate multiple concepts and techniques. -->
 
 ## Exercises
