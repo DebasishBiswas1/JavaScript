@@ -47,16 +47,16 @@ js-practice-repo/
 │   ├── exercise2/
 │   └── ...
 │
-├── projects/
+<!-- ├── projects/
 │   ├── project1/
 │   ├── project2/
-│   └── ...
+│   └── ... -->
 │
 └── README.md
 
 
 - **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts.
-- **projects/**: This folder contains larger projects that integrate multiple concepts and techniques.
+<!-- - **projects/**: This folder contains larger projects that integrate multiple concepts and techniques. -->
 
 ## Exercises
 
@@ -71,7 +71,7 @@ The **exercises** folder includes a variety of practice problems, each focusing 
 
 Each exercise folder contains a README file with detailed instructions on what needs to be accomplished.
 
-## Projects
+<!-- ## Projects
 
 The **projects** folder contains more comprehensive projects that require integrating various JavaScript skills. Examples include:
 
@@ -80,7 +80,7 @@ The **projects** folder contains more comprehensive projects that require integr
 - Weather App
 - Tic-Tac-Toe Game
 
-Each project folder includes a README file with project specifications, requirements, and setup instructions.
+Each project folder includes a README file with project specifications, requirements, and setup instructions. -->
 
 ## Contributing
 
@@ -103,9 +103,9 @@ Here are some resources to help you with your JavaScript learning journey:
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
-## License
+<!-- ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information. -->
 
 Happy coding! 🚀
 
