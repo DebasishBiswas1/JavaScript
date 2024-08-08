@@ -4,15 +4,12 @@ Welcome to the JavaScript Practice Repository! This repository is designed to he
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Exercises](#exercises)
-- [Projects](#projects)
-- [Contributing](#contributing)
-- [Resources](#resources)
-- [License](#license)
+- [01_basic](#01_basic)
+- [DOM](#DOM)
+- [projects](#projects)
 
-## Getting Started
+
+## 01_basic
 
 To get started with the exercises and projects in this repository, follow these steps:
 
@@ -36,51 +33,24 @@ To get started with the exercises and projects in this repository, follow these 
 
     Each exercise or project will have its own instructions for running and testing the code. Refer to the README file within each folder for specific details.
 
-<!-- ## Folder Structure
-
-The repository is structured as follows:
-
-js-practice-repo/
-│
-├── exercises/
-│   ├── exercise1/
-│   ├── exercise2/
-│   └── ...
-│
-<!-- ├── projects/
-│   ├── project1/
-│   ├── project2/
-│   └── ... -->
-<!-- │
-└── README.md
-
-
-- **exercises/**: This folder contains individual exercises to practice specific JavaScript concepts. --> -->
-<!-- - **projects/**: This folder contains larger projects that integrate multiple concepts and techniques. -->
-
-## Exercises
-
-The **exercises** folder includes a variety of practice problems, each focusing on different aspects of JavaScript. Examples include:
+The folder includes a variety of pratice things and concepts, each focusing on different aspects of JavaScript. Examples include:
 
 - Variables and Data Types
 - Functions
 - Loops and Iterations
 - Arrays and Objects
 - DOM Manipulation
-- Asynchronous JavaScript
+<!-- - Asynchronous JavaScript -->
 
-Each exercise folder contains a README file with detailed instructions on what needs to be accomplished.
-
-<!-- ## Projects
+## Projects
 
 The **projects** folder contains more comprehensive projects that require integrating various JavaScript skills. Examples include:
 
-- To-Do List Application
-- Calculator
+- Background Color Changer
+<!-- - Calculator
 - Weather App
-- Tic-Tac-Toe Game
+- Tic-Tac-Toe Game -->
 
-Each project folder includes a README file with project specifications, requirements, and setup instructions. -->
 
 ## Contributing
 
@@ -103,9 +73,6 @@ Here are some resources to help you with your JavaScript learning journey:
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
-<!-- ## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information. -->
 
 Happy coding! 🚀
 
