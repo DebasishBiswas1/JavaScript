@@ -73,6 +73,33 @@
 
 
 
+    //-------> remove items by clicking
+
+    // This below way might not get the exact li if clicked outside
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log(e.target.parentNode);
+    //     const removeIt = e.target.parentNode;
+    //     removeIt.remove();
+    //     // removeIt.parentNode.removeChild(removeIt);    //Old process
+    // })
+
+    // ------> Right way to it by keeping a check whether the tag name is IMG or not
+    document.getElementById('images').addEventListener('click',function(e){
+        console.log(e.target.tagName);
+
+        if(e.target.tagName === 'IMG'){
+            const removeIt = e.target.parentNode;
+            removeIt.remove();
+        }
+        
+    })
+
+
+
+
+
+
+
 
 
 </script>
