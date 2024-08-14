@@ -12,6 +12,8 @@
             <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
             <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
             <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <!-- 1st way but not recommended as this is noty that much expandable in js but is different in  react -->
+            <!-- <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" onclick="alert('OWL clicked')"></li> -->
             <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
             <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
             <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
@@ -20,8 +22,14 @@
     
 </body>
 <script>
-    document.getElementById('owl').addEventListener('click',function(e){
-        alert("Owl got clicked");
-    })
+    // 2nd way but that is also not recommended
+    // document.getElementById('owl').onclick = function(){
+    //     alert('Owl clicked');
+    // }
+
+    // 3rd way and this is recommended as many other things can be applied through eventListener
+    // document.getElementById('owl').addEventListener('click',function(e){
+    //     alert("Owl got clicked");
+    // })
 </script>
 </html>
