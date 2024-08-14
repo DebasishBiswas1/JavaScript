@@ -31,5 +31,49 @@
     // document.getElementById('owl').addEventListener('click',function(e){
     //     alert("Owl got clicked");
     // })
+
+
+
+    // ------> Propagation
+
+    // When propagation is set to false then it is called bubbling mode as innermost element got clicked and then sequentially the outer ones and when set to true then the parentmost element got clicked and then the inner ones and this is called capturing mode
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("UL got clicked");
+        
+    // },true)
+
+    // document.getElementById('owl').addEventListener('click',function(e){
+    //     console.log("OWL got clicked");
+        
+    // },true)
+
+
+
+    // document.getElementById('images').addEventListener('click',function(e){
+    //     console.log("UL got clicked");
+        
+    // },false)
+
+    // document.getElementById('owl').addEventListener('click',function(e){
+    //     console.log("OWL got clicked");
+    //     e.stopPropagation();    // -----> This is to stop the bubbling or caapturing propagation.
+        
+    // },false)
+
+
+
+    // -----> To stop the default behaviour of the link
+
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault();   
+    //     console.log("Prevented");
+        
+    // })
+
+
+
+
+
+
 </script>
 </html>
