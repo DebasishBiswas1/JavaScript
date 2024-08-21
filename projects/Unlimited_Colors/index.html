@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Background color change every second after clicking START button and stops after clicking STOP button</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+</body>
+<script>
+    // Select all buttons
+    const buttons = document.querySelectorAll('button');
+    let nameInterval;
+    const bck_colorChange = function(){
+        document.querySelector('body').style.backgroundColor = 'red'
+        console.log("Deba",Date.now());
+    }
+    
+    // Loop through each button and add an event listener
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function(e) {
+            if( e.target.id === 'start'){
+                color_Interval = setInterval(bck_colorChange,1000)
+            }
+            if(e.target.id === 'stop'){
+                clearInterval(color_Interval)
+            }
+            
+            console.log(e.target.id);
+        });
+    });
+</script>
+
+</html>
