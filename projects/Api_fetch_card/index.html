@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-photo">
+            <img src="https://via.placeholder.com/150" alt="Profile Photo" id="profile-photo">
+        </div>
+        <div class="card-details">
+            <h2 id="name">John Doe</h2>
+            <p id="account-details">Account No: 1234567890<br>Bank: XYZ Bank</p>
+        </div>
+        <div class="card-buttons">
+            <button onclick="getPhoto()">Get Photo</button>
+            <button onclick="getDetails()">Get Details</button>
+        </div>
+    </div>
+
+    <script>
+        function getPhoto() {
+            alert("Fetching photo...");
+            // Add logic to fetch photo
+        }
+
+        function getDetails() {
+            alert("Fetching account details...");
+            // Add logic to fetch account details
+        }
+
+        const requestURL = 'https://api.github.com/users/hiteshchoudhary';
+    </script>
+</body>
+</html>
