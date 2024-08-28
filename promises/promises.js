@@ -65,11 +65,25 @@ promiseFour.then(function(user){
 
 const promiseFive = new Promise(function(resolve,reject){
     setTimeout(function(){
-        resolve();
+        const error = true;
+        if(!error){
+            resolve({username:"debasish",pasword:"123"});
+        }else{
+            reject('ERROR: JS went wrong');
+        }
         
     },1000)
 })
 
-promiseFive.then(function(){
-    console.log("Promise Consumed");
-})
+async function consumePromiseFive(){
+    try {
+        const response = await promiseFive
+        console.log(response);
+    } catch (error) {
+        console.log(error);
+        
+    }
+    
+}
+
+consumePromiseFive()
