@@ -60,3 +60,16 @@ promiseFour.then(function(user){
 }).catch( (error)=>{
     console.log(error);
 }).finally( ()=> console.log('The promise is finally resolved or rejected'))
+
+// Promise five
+
+const promiseFive = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        resolve();
+        
+    },1000)
+})
+
+promiseFive.then(function(){
+    console.log("Promise Consumed");
+})
